@@ -77,12 +77,12 @@ body{
     10%, 20% {
         opacity: 1;
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #FF00FF, 0 0 50px #FF00FF, 0 0 100px #FF00FF;
     }
     80%, 90% {
         opacity: 1;
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #FF00FF, 0 0 50px #FF00FF, 0 0 100px #FF00FF;
     }
     50% {
         opacity: 0;
@@ -256,12 +256,12 @@ body{
     10%, 20% {
         opacity: 1;
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 30px #39c6d6, 0 0 60px #39c6d6;
+        text-shadow: 0 0 12px #FF00FF, 0 0 30px #FF00FF, 0 0 60px #FF00FF;
     }
     80%, 90% {
         opacity: 1;
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 30px #39c6d6, 0 0 60px #39c6d6;
+        text-shadow: 0 0 12px #FF00FF, 0 0 30px #FF00FF, 0 0 60px #FF00FF;
     }
     50% {
         opacity: 0;
@@ -292,6 +292,26 @@ body{
 .greetings > span:nth-child(8) {
     animation-delay: 0.8s;
 }
+
+.greetings > span:nth-child(10) {
+    animation-delay: 0.2s;
+}
+.greetings > span:nth-child(11) {
+    animation-delay: 0.3s;
+}
+.greetings > span:nth-child(12) {
+    animation-delay: 0.4s;
+}
+.greetings > span:nth-child(13) {
+    animation-delay: 0.5s;
+}
+.greetings > span:nth-child(14) {
+    animation-delay: 0.6s;
+}
+.greetings > span:nth-child(15) {
+    animation-delay: 0.7s;
+}
+
 
 
 .description{

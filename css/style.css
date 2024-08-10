@@ -130,6 +130,15 @@ body{
     animation: fadeInOut 3s ease-in-out forwards;
 }
 
+.description .message.specials {
+    animation: fadeInOut 3.5s ease-in-out forwards;
+}
+
+.description .message.specialss {
+    animation: fadeInOut 4s ease-in-out forwards;
+}
+
+
 
 
 @keyframes fadeInOut {

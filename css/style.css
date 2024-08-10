@@ -121,10 +121,16 @@ body{
 }
 
 .description .message {
-    display: none;
+    display: block;
     opacity: 0;
-    animation: fadeInOut 1.5s ease-in-out forwards;
+    animation: fadeInOut 2.5s ease-in-out forwards;
 }
+
+.description .message.special {
+    animation: fadeInOut 3s ease-in-out forwards;
+}
+
+
 
 @keyframes fadeInOut {
     0%, 100% {
@@ -134,6 +140,12 @@ body{
         opacity: 1;
     }
 }
+
+
+
+
+
+
 
 .button {
     margin-top: 100px; /* Add or adjust margin-top as needed */

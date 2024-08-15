@@ -100,34 +100,32 @@ body{
     }
 }
 
-/* Customize delays for each span in the first line */
+/* Custom delays for each span in the first line */
 .greetings .line:nth-child(1) > span:nth-child(1) { animation-delay: 0s; }
 .greetings .line:nth-child(1) > span:nth-child(2) { animation-delay: 0.2s; }
 .greetings .line:nth-child(1) > span:nth-child(3) { animation-delay: 0.4s; }
 .greetings .line:nth-child(1) > span:nth-child(4) { animation-delay: 0.6s; }
 .greetings .line:nth-child(1) > span:nth-child(5) { animation-delay: 0.8s; }
 .greetings .line:nth-child(1) > span:nth-child(6) { animation-delay: 1s; }
-.greetings .line:nth-child(1) > span:nth-child(7) { animation-delay: 1.2s; }
-.greetings .line:nth-child(1) > span:nth-child(8) { animation-delay: 1.4s; }
-.greetings .line:nth-child(1) > span:nth-child(9) { animation-delay: 1.6s; }
-.greetings .line:nth-child(1) > span:nth-child(10) { animation-delay: 1.8s; }
-.greetings .line:nth-child(1) > span:nth-child(11) { animation-delay: 2s; }
-.greetings .line:nth-child(1) > span:nth-child(12) { animation-delay: 2.2s; }
-.greetings .line:nth-child(1) > span:nth-child(13) { animation-delay: 2.4s; }
-.greetings .line:nth-child(1) > span:nth-child(14) { animation-delay: 2.6s; }
-.greetings .line:nth-child(1) > span:nth-child(15) { animation-delay: 2.8s; }
+.greetings .line:nth-child(1) > span:nth-child(8) { animation-delay: 1.2s; }
+.greetings .line:nth-child(1) > span:nth-child(9) { animation-delay: 1.4s; }
+.greetings .line:nth-child(1) > span:nth-child(10) { animation-delay: 1.6s; }
+.greetings .line:nth-child(1) > span:nth-child(11) { animation-delay: 1.8s; }
+.greetings .line:nth-child(1) > span:nth-child(12) { animation-delay: 2s; }
+.greetings .line:nth-child(1) > span:nth-child(13) { animation-delay: 2.2s; }
+.greetings .line:nth-child(1) > span:nth-child(15) { animation-delay: 2.4s; }
+.greetings .line:nth-child(1) > span:nth-child(16) { animation-delay: 2.8s; }
+.greetings .line:nth-child(1) > span:nth-child(17) { animation-delay: 3s; }
 
 
-
-/* Customize delays for each span in the third line */
-.greetings .line:nth-child(2) > span:nth-child(2) { animation-delay: 3s; }
-.greetings .line:nth-child(2) > span:nth-child(3) { animation-delay: 3.2s; }
-.greetings .line:nth-child(2) > span:nth-child(5) { animation-delay: 3.4s; }
-.greetings .line:nth-child(2) > span:nth-child(6) { animation-delay: 3.6s; }
-.greetings .line:nth-child(2) > span:nth-child(7) { animation-delay: 3.8s; }
-.greetings .line:nth-child(2) > span:nth-child(8) { animation-delay: 4s; }
-.greetings .line:nth-child(2) > span:nth-child(9) { animation-delay: 4.2s; }
-
+/* Custom delays for each span in the second line */
+.greetings .line:nth-child(2) > span:nth-child(2) { animation-delay: 3.2s; }
+.greetings .line:nth-child(2) > span:nth-child(3) { animation-delay: 3.4s; }
+.greetings .line:nth-child(2) > span:nth-child(5) { animation-delay: 3.8s; }
+.greetings .line:nth-child(2) > span:nth-child(6) { animation-delay: 4s; }
+.greetings .line:nth-child(2) > span:nth-child(7) { animation-delay: 4.2s; }
+.greetings .line:nth-child(2) > span:nth-child(8) { animation-delay: 4.4; }
+.greetings .line:nth-child(2) > span:nth-child(9) { animation-delay: 4.6s; }
 
 
 .description{

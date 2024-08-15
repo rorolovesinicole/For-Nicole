@@ -275,29 +275,21 @@ body{
     }
 
     .description .message {
-        animation: fadeInOutSmall 2s ease-in-out forwards; /* Adjust animation timing */
+        display: none;
+        opacity: 0;
+        animation: fadeInOut 1.5s ease-in-out forwards;
     }
-
+    
     .description .message.special {
-        animation: fadeInOutSmall 3.5s ease-in-out forwards; /* Slightly slower animation for emphasis */
+        animation: fadeInOut 3s ease-in-out forwards;
     }
-
+    
     .description .message.specials {
-        animation: fadeInOutSmall 4s ease-in-out forwards; /* Slower for more impact */
+        animation: fadeInOut 3.5s ease-in-out forwards;
     }
-
+    
     .description .message.specialss {
-        animation: fadeInOutSmall 4.5s ease-in-out forwards; /* Further slower */
-    }
-
-    /* Define new keyframes for smaller screens */
-    @keyframes fadeInOutSmall {
-        0%, 100% {
-            opacity: 0;
-        }
-        60% {
-            opacity: 1;
-        }
+        animation: fadeInOut 4s ease-in-out forwards;
     }
 
 

@@ -203,7 +203,7 @@ body{
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 574px) {
 .greetings {
-    font-size: 10vw; /* Increase font size for better visibility on small screens */
+    font-size: 9vw; /* Increase font size for better visibility on small screens */
     font-weight: 900;
     letter-spacing: 0.5vw; /* Responsive letter spacing */
     text-align: center;

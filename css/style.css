@@ -206,7 +206,7 @@ body{
 /* Add or adjust these styles for smaller screens */
 @media screen and (max-width: 574px) {
     .greetings {
-        font-size: 4rem; /* Adjusted font size for better fit on small screens */
+        font-size: 5rem; /* Adjusted font size for better fit on small screens */
         font-weight: 900;
         letter-spacing: 0.4rem; /* Adjusted letter spacing */
         text-align: center;

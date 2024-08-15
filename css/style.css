@@ -203,14 +203,13 @@ body{
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
-/* Add or adjust these styles for smaller screens */
+/* Responsive adjustments for smaller screens */
 @media screen and (max-width: 574px) {
     .greetings {
         font-size: 12vw; /* Increase font size for better visibility on small screens */
         font-weight: 700;
         letter-spacing: 0.2vw; /* Adjust letter spacing for smaller screens */
     }
-
 
     /* Modify animation timing and delays for smaller screens */
     .greetings > .line > span {
@@ -232,6 +231,7 @@ body{
             text-shadow: none;
         }
     }
+
 
     /* Adjust animation delays for smaller screens */
     .greetings .line:nth-child(1) > span:nth-child(1) { animation-delay: 0s; }

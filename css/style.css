@@ -206,9 +206,10 @@ body{
 /* Add or adjust these styles for smaller screens */
 @media screen and (max-width: 574px) {
     .greetings {
-        font-size: 0.8rem; /* Increase font size for better visibility on small screens */
-        font-weight: 700;
+        font-size: 6rem; /* Increase font size for better visibility on small screens */
+        font-weight: 900;
         letter-spacing: 0.5rem; /* Adjust letter spacing for smaller screens */
+        text-align: center;
     }
 
     /* Modify animation timing and delays for smaller screens */

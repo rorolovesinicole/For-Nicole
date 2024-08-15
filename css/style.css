@@ -219,8 +219,36 @@ body{
     }
 
     .description {
-        font-size: 1rem;
+        font-size: 1rem; /* Reduce font size for readability */
+        margin-top: 20px; /* Adjust margin to fit smaller screens */
     }
+
+    .description .message {
+        animation: fadeInOutSmall 2s ease-in-out forwards; /* Adjust animation timing */
+    }
+
+    .description .message.special {
+        animation: fadeInOutSmall 3.5s ease-in-out forwards; /* Slightly slower animation for emphasis */
+    }
+
+    .description .message.specials {
+        animation: fadeInOutSmall 4s ease-in-out forwards; /* Slower for more impact */
+    }
+
+    .description .message.specialss {
+        animation: fadeInOutSmall 4.5s ease-in-out forwards; /* Further slower */
+    }
+
+    /* Define new keyframes for smaller screens */
+    @keyframes fadeInOutSmall {
+        0%, 100% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 1;
+        }
+    }
+
 
     .button a {
         font-size: 0.8rem;

@@ -205,33 +205,44 @@ body{
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 574px) {
-    .greetings {
-        font-size: 10vw; /* Increase font size for better visibility on small screens */
-        font-weight: 700;
-        letter-spacing: 0.2vw; /* Adjust letter spacing for smaller screens */
-    }
+.greetings {
+    font-size: 10vw; /* Increase font size for better visibility on small screens */
+    font-weight: 700;
+    letter-spacing: 0.5vw; /* Responsive letter spacing */
+    text-align: center;
+}
+    
+/* Modify animation timing and delays for smaller screens */
+.greetings .line {
+    display: flex;
+    justify-content: center;
+}
 
-    /* Modify animation timing and delays for smaller screens */
-    .greetings > .line > span {
-        animation: glowSmall 3s ease-in-out infinite;
+.greetings > .line > span {
+    opacity: 0;
+    animation: glow 4s ease-in-out infinite;
+}
+    
+@keyframes glowSmall {
+    0%, 100% {
+        opacity: 0;
     }
-
-    @keyframes glowSmall {
-        0%, 100% {
-            opacity: 0;
-        }
-        10%, 90% {
-            opacity: 1;
-            color: #fff;
-            text-shadow: 0 0 8px #FF00FF, 0 0 40px #FF00FF, 0 0 80px #FF00FF;
-        }
-        50% {
-            opacity: 0;
-            color: #111;
-            text-shadow: none;
-        }
+    10%, 20% {
+        opacity: 1;
+        color: #fff;
+        text-shadow: 0 0 12px #FF00FF, 0 0 50px #FF00FF, 0 0 100px #FF00FF;
     }
-
+    80%, 90% {
+        opacity: 1;
+        color: #fff;
+        text-shadow: 0 0 12px #FF00FF, 0 0 50px #FF00FF, 0 0 100px #FF00FF;
+    }
+    50% {
+        opacity: 0;
+        color: #111;
+        text-shadow: none;
+    }
+}
 
 /* Adjust animation delays for smaller screens */
 .greetings .line:nth-child(1) > span:nth-child(1) { animation-delay: 0s; }

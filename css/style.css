@@ -208,7 +208,7 @@ body{
     .greetings {
         font-size: 0.8rem; /* Increase font size for better visibility on small screens */
         font-weight: 700;
-        letter-spacing: 0.2vw; /* Adjust letter spacing for smaller screens */
+        letter-spacing: 0.5rem; /* Adjust letter spacing for smaller screens */
     }
 
     /* Modify animation timing and delays for smaller screens */

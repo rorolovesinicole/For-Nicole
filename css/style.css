@@ -12,7 +12,9 @@ body{
     justify-content: center;
     background-color: black; /* Set a light blue background color */
     overflow: hidden; /* Prevent scrollbars from appearing */
+    position: relative; /* Add this line */
 }
+
 /* Add this style for the audio section */
 .foraudio {
     margin-top: 50px;
@@ -202,6 +204,18 @@ body{
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 574px) {
+
+    body {
+        background-color: transparent;
+        background-image: url('sourcee/media/usbabyy.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .particles {
+        background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a slight overlay to make particles more visible */
+    }
+
 .greetings {
     font-size: 9vw; /* Increase font size for better visibility on small screens */
     font-weight: 900;
